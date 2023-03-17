@@ -1,4 +1,4 @@
-#include <stdio,h>
+#include <stdio.h>
 /**
  * main - block
  * Description: Using 'putchar' to print lower case of alphabet
