@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * rot13 - rotate characters 13 places in the alphabet
