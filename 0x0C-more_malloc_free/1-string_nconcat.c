@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -7,6 +7,7 @@
  * @s2: string 2
  * @n: bytes to include of s2
  * Return: NULL if fail, else pointer to malloc memory
+ * bravo-dev
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)

@@ -6,6 +6,7 @@
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
+ * bravo-dev
  */
 int _putchar(char c)
 {
