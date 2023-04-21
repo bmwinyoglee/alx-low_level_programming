@@ -5,6 +5,7 @@
  * print_numbers - print each number with separator, followed by a newline
  * @separator: string to be printed between numbers
  * @n: number of args passed
+ * bravo-dev
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
