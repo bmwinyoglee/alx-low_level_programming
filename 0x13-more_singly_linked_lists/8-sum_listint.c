@@ -4,6 +4,7 @@
  * sum_listint - get the sum of all the int `n` of a `listint_t` linked list
  * @head: pointer to head
  * Return: sum of all int `n`
+ * bravo-dev
  */
 int sum_listint(listint_t *head)
 {

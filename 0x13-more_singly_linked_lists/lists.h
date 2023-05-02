@@ -7,6 +7,7 @@
  * @next: points to the next node
  *
  * Description: more singly linked lists
+ * bravo-dev
  */
 typedef struct listint_s
 {

@@ -8,6 +8,7 @@
  * @head: head of linked list
  * Description: Go through the list only once.
  * Return: number of nodes in list. If fails, exit with status 98.
+ * brav0-dev
  */
 size_t print_listint_safe(const listint_t *head)
 {

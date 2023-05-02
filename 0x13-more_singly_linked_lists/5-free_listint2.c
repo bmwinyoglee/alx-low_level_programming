@@ -3,6 +3,7 @@
 /**
  * free_listint2 - free a `listint_t` list
  * @head: double pointer to head
+ * bravo-dev
  */
 void free_listint2(listint_t **head)
 {

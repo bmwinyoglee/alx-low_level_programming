@@ -5,6 +5,7 @@
  * @head: double header to head of linked list
  * @index: index of node to delete, starting at 0
  * Return: 1 if success, -1 if failed
+ * bravo-dev
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
