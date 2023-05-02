@@ -1,4 +1,4 @@
-//100-reverse_listint.c
+/** 100-reverse_listint.c */
 #include "lists.h"
 #include <stdio.h>
 /**
