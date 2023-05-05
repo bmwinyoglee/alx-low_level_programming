@@ -6,6 +6,7 @@
  * @index: index of the bit to set to 1
  *
  * Return: 1 for success, -1 for failure
+ * bravo-dev
  */
 
 int set_bit(unsigned long int *n, unsigned int index)

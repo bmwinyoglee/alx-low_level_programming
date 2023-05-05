@@ -4,6 +4,7 @@
 /**
  * print_binary - print binary representation of a number
  * @n: number to print as binary
+ * bravo-dev
  */
 
 void print_binary(unsigned long int n)

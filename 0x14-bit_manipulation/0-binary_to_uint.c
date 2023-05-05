@@ -6,6 +6,7 @@
  * @b: pointer to a string of binary numbers
  *
  * Return:The converted number, or 0
+ * bravo-dev
  */
 
 unsigned int binary_to_uint(const char *b)
@@ -27,6 +28,5 @@ unsigned int binary_to_uint(const char *b)
 		if (b[w] == '1')
 			result += expo;
 	}
-
 	return (result);
 }
