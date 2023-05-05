@@ -17,11 +17,11 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	for (i = n, m = 0; (i >>= 1) > 0; m++);
+	for (i = n, m = 0; (i >>= 1) > 0; m++)
+		;
 
 	while (m >= 0)
 	{
-
 	    if ((n >> m) & 1)
 	        printf("1");
 	    else
