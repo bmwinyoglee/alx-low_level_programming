@@ -23,9 +23,9 @@ void print_binary(unsigned long int n)
 	while (m >= 0)
 	{
 	    if ((n >> m) & 1)
-	        printf("1");
+	    	printf("1");
 	    else
-	        printf("0");
+	    	printf("0");
 	    m--;
 	}
 }
