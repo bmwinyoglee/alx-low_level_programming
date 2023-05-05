@@ -9,7 +9,7 @@
 void print_binary(unsigned long int n)
 {
 	unsigned long int i;
-	int j;
+	int m;
 
 	if (n == 0)
 	{
@@ -17,15 +17,15 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	for (i = n, j = 0; (i >>= 1) > 0; j++);
+	for (i = n, m = 0; (i >>= 1) > 0; m++);
 
-	while (j >= 0)
+	while (m >= 0)
 	{
 
-	    if ((n >> j) & 1)
+	    if ((n >> m) & 1)
 	        printf("1");
 	    else
 	        printf("0");
-	    j--;
+	    m--;
 	}
 }
